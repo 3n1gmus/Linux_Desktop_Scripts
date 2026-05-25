@@ -12,7 +12,7 @@ echo "Updating pikman..."
 pikman update
 
 echo "Installing Snapper and Snapper GUI..."
-pikman install snapper snapper-gui
+pikman install snapper snapper-gui zstd
 
 echo "Creating Snapper configuration for root..."
 sudo snapper create-config /
